@@ -47,7 +47,7 @@ module.exports = (_, argv) => ({
       name: "app2",
       filename: "remoteEntry.js",
       remotes: {
-        app1: " app1@https://app1-phi.vercel.app//remoteEntry.js",
+        app1: " app1@https://app1-phi.vercel.app/remoteEntry.js",
       },
       exposes: {
         "./Component2": "./src/component2.jsx",
