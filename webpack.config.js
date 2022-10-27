@@ -7,7 +7,7 @@ module.exports = (_, argv) => ({
     publicPath:
       argv.mode === "development"
         ? "http://localhost:3001/"
-        : "https://app2-phi.vercel.app/",
+        : "https://app2-sigma.vercel.app/",
   },
 
   resolve: {
